@@ -1,7 +1,5 @@
 # Git ブランチ構成
 
-以下は、`main`ブランチから`feature/reset`と`feature/revert`に分岐する Git のブランチ構成です。
-
 ```mermaid
 gitGraph:
    commit id: "初回コミット"
