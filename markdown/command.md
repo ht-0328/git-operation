@@ -50,6 +50,14 @@ git reset --soft HEAD~2
 git push --force-with-lease
 ```
 
+### 特定のブランチの特定のファイルのみマージする
+
+`main`ブランチの`markdown/git-branch-structure.md`のみマージする
+
+```sh
+git restore --source=main markdown/git-branch-structure.md
+```
+
 ## VSCode コマンド
 
 "Ctrl + Shift + P"でコマンドパレット開き、各コマンドを実行する
