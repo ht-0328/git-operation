@@ -9,11 +9,17 @@ gitGraph:
    checkout feature/reset
    commit id: "feature/resetブランチ作成"
    commit id: "reset.json作成"
-   checkout main
 
+   branch feature/reset_before
+   checkout feature/reset_before
+   commit id: "reset_before追加"
+   commit id: "reset.jsonにプロパティを追加1"
+
+   checkout main
    branch feature/revert
    checkout feature/revert
    commit id: "feature/revertブランチ作成"
    checkout main
+
 
 ```
