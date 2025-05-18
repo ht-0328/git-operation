@@ -41,6 +41,15 @@ git reset --soft HEAD^
 git push --force-with-lease
 ```
 
+### 特定のコミットまで戻す
+
+`HEAD~2`と指定した場合は、最新のコミットから 2 つ前まで戻す
+
+```sh
+git reset --soft HEAD~2
+git push --force-with-lease
+```
+
 ## VSCode コマンド
 
 "Ctrl + Shift + P"でコマンドパレット開き、各コマンドを実行する
