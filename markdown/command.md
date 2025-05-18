@@ -79,6 +79,20 @@ git revert HEAD
 git revert 1e3d3b8^..b531cf9
 ```
 
+### プルした場合に競合が発生した場合に、プルを取り消す
+
+プルするときにマージする場合
+
+```sh
+git merge --abort
+```
+
+プルするときにリベースする場合
+
+```sh
+git rebase --abort
+```
+
 ## VSCode コマンド
 
 "Ctrl + Shift + P"でコマンドパレット開き、各コマンドを実行する
