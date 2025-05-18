@@ -21,6 +21,7 @@ gitGraph:
    branch feature/revert
    checkout feature/revert
    commit id: "feature/revertブランチ作成"
+   commit id: "revert.json作成"
    checkout main
 
 
