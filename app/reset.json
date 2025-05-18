@@ -1,0 +1,11 @@
+{
+    "id": "002",
+    "name": "山田花子",
+    "age": 25,
+    "address": {
+        "postal_code": "890-1234",
+        "prefecture": "東京都",
+        "city": "渋谷区",
+        "street": "4-5-6"
+    }
+}
