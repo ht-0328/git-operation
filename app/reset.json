@@ -9,5 +9,6 @@
         "street": "4-5-6"
     },
     "phone_number": "090-1234-5678",
-    "email": "yamada@example.com"
+    "email": "yamada@example.com",
+    "hobby": ["読書", "映画鑑賞", "旅行"]
 }

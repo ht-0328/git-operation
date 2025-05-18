@@ -15,6 +15,7 @@ gitGraph:
    commit id: "reset_before追加"
    commit id: "reset.jsonにプロパティを追加1"
    commit id: "reset.jsonにプロパティを追加2"
+   commit id: "reset.jsonにプロパティを追加3"
 
    checkout main
    branch feature/revert
