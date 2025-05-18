@@ -27,7 +27,6 @@ gitGraph:
    checkout feature/revert_before
    commit id: "feature/revert_beforeブランチ作成"
    commit id: "revert.jsonにプロパティを追加1"
-   commit id: "revert.jsonにプロパティを追加2"
    checkout main
 
 
