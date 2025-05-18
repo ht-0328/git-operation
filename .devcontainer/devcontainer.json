@@ -1,0 +1,30 @@
+{
+    "name": "app",
+    "build": {
+        "dockerfile": "${localWorkspaceFolder}/docker/Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mhutchie.git-graph",
+                "donjayamanne.githistory",
+                "eamodio.gitlens",
+                "esbenp.prettier-vscode",
+                "yzhang.markdown-all-in-one",
+                "DavidAnson.vscode-markdownlint",
+                "bierner.markdown-mermaid"
+            ],
+            "settings": {
+                "editor.formatOnSave": true, // 保存時に自動で整形を行う
+                "prettier.requireConfig": true, // プロジェクト内にPrettier設定ファイルが必要
+                "editor.defaultFormatter": "esbenp.prettier-vscode"
+            }
+        }
+    },
+    "workspaceFolder": "/workspace",
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+        "source=${localWorkspaceFolder}/.devcontainer/git/.ssh,target=/root/.ssh,type=bind,consistency=cached",
+        "source=${localWorkspaceFolder}/.devcontainer/git/.gitconfig,target=/root/.gitconfig,type=bind,consistency=cached"
+    ]
+}
