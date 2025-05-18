@@ -28,6 +28,19 @@ git config --global user.name "自身のユーザ名"
 git config --global user.email "自身のメールアドレス"
 ```
 
+### git pull したときに、rebase を行う
+
+```sh
+git config --global pull.rebase true
+```
+
+### 直前のコミットを取り消す
+
+```sh
+git reset --soft HEAD^
+git push --force-with-lease
+```
+
 ## VSCode コマンド
 
 "Ctrl + Shift + P"でコマンドパレット開き、各コマンドを実行する
