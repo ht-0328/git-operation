@@ -10,6 +10,7 @@ gitGraph:
    branch feature/reset
    checkout feature/reset
    commit id: "feature/resetブランチ作成"
+   commit id: "reset.json作成"
    checkout main
 
    branch feature/revert
