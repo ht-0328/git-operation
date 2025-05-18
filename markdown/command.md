@@ -58,6 +58,27 @@ git push --force-with-lease
 git restore --source=main markdown/git-branch-structure.md
 ```
 
+### コミットログを出力する
+
+```sh
+git log --oneline -n 5
+```
+
+### 直前のコミットをリバートする
+
+```sh
+git revert HEAD
+```
+
+### 特定のコミット～特定のコミットまでリバートする
+
+`1e3d3b8`～`b531cf9`のコミットをリバートする
+※古いコミット ID を先に指定する
+
+```sh
+git revert 1e3d3b8^..b531cf9
+```
+
 ## VSCode コマンド
 
 "Ctrl + Shift + P"でコマンドパレット開き、各コマンドを実行する
