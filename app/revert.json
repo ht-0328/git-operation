@@ -1,0 +1,11 @@
+{
+    "id": "003",
+    "name": "田中舞",
+    "age": 20,
+    "address": {
+        "postal_code": "567-8901",
+        "prefecture": "東京都",
+        "city": "品川区",
+        "street": "7-8-9"
+    }
+}
