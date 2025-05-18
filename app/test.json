@@ -1,0 +1,11 @@
+{
+    "id": "001",
+    "name": "佐藤太郎",
+    "age": 30,
+    "address": {
+        "postal_code": "123-4567",
+        "prefecture": "東京都",
+        "city": "新宿区",
+        "street": "1-2-3"
+    }
+}
